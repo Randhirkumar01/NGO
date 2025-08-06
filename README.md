@@ -1,12 +1,94 @@
-# React + Vite
+# 💖 HeartKind NGO Website
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+A simple, elegant, and responsive React-based website for the NGO **HeartKind** — built to spread awareness, encourage volunteering, and showcase impact.
 
-Currently, two official plugins are available:
+---
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+## 📌 Features
 
-## Expanding the ESLint configuration
+* 🌐 **Multi-page layout** with Home, About Us, and Volunteer Form pages.
+* 💡 **Animated UI** using [Framer Motion](https://www.framer.com/motion/) for smooth transitions and interactions.
+* ✅ **Form validation** using [react-hook-form](https://react-hook-form.com/).
+* 🔔 **Toast notifications** with [react-hot-toast](https://react-hot-toast.com/).
+* 💅 **Tailwind CSS** for rapid and responsive styling.
+* ✨ **Glowing navbar links** for visual interactivity.
+* 📱 Fully **responsive design** and smooth scrolling.
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+---
+
+## 📁 Folder Structure
+
+```
+heartkind-ngo/
+│
+├── public/
+│   └── favicon.ico
+│
+├── src/
+│   ├── assets/
+│   ├── components/
+│   │   ├── Home.jsx
+│   │   ├── About.jsx
+│   │   └── Volunteer.jsx
+│   ├── App.jsx
+│   └── index.js
+│
+├── tailwind.config.js
+├── postcss.config.js
+├── package.json
+└── README.md
+```
+
+---
+
+## 🚀 Getting Started
+
+### 1. Clone the Repository
+
+```bash
+git clone https://github.com/Randhirkumar01/NGO.git
+cd NGO
+```
+
+### 2. Install Dependencies
+
+```bash
+npm install
+```
+
+### 3. Run the Development Server
+
+```bash
+npm run dev
+```
+
+> Navigate to `http://localhost:5173/` to view the site.
+
+---
+
+## ⚙️ Built With
+
+* [React](https://reactjs.org/)
+* [React Router DOM](https://reactrouter.com/)
+* [Framer Motion](https://www.framer.com/motion/)
+* [React Hook Form](https://react-hook-form.com/)
+* [React Hot Toast](https://react-hot-toast.com/)
+* [Tailwind CSS](https://tailwindcss.com/)
+
+---
+
+## 📸 Preview
+
+&#x20;
+
+---
+
+## 🤝 Contributing
+
+Feel free to fork the repository and submit pull requests for improvements or new features.
+
+---
+
+## 📄 License
+
+This project is open source and free to use under the [MIT License](LICENSE).
