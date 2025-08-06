@@ -1,0 +1,7 @@
+@import "tailwindcss";
+
+
+.BG-Img{
+  background: linear-gradient(to bottom, rgba(255, 255, 255, 0.85), rgba(255, 255, 255, 0.8)), url("/Logo.png") no-repeat fixed;
+  background-position: center 30%;
+}
