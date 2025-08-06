@@ -1,5 +1,5 @@
 import React from "react";
-import { BrowserRouter as Router, Route, Routes, Link } from "react-router-dom";
+import { Route, Routes, Link } from "react-router-dom";
 import Home from "./components/Home";
 import About from "./components/About";
 import Volunteer from "./components/Volunteer";
@@ -7,7 +7,6 @@ import { motion } from "framer-motion";
 
 function App() {
   return (
-    <Router>
       <div className="min-h-screen w-full bg-gray-100 text-gray-800 overflow-x-hidden scroll-smooth">
         <motion.nav
           className="bg-white shadow p-4 flex justify-between items-center"
@@ -47,7 +46,6 @@ function App() {
           <Route path="*" element={<div className="p-4">Page Not Found</div>} />
         </Routes>
       </div>
-    </Router>
   );
 }
 
